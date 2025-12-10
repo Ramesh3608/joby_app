@@ -1,0 +1,27 @@
+.similar-job-card {
+  background-color: #202020;
+  border-radius: 12px;
+  padding: 18px;
+  color: #ffffff;
+}
+
+/* job-card-header, job-company-logo, etc., are shared class names with JobCard
+   so they will automatically use JobCard styles. */
+
+.similar-job-card .job-title {
+  font-size: 16px;
+}
+
+.similar-job-card .description-heading {
+  margin-top: 12px;
+}
+
+.similar-job-card .job-description {
+  margin-bottom: 12px;
+}
+
+.similar-job-card .location-employment {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+}
